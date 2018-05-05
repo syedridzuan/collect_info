@@ -1,0 +1,20 @@
+
+Routing table: default.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+0.0.0.0/32         perm     0                    dscd       34     1
+
+Routing table: __master.anon__.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+0.0.0.0/32         perm     0                    dscd      518     1
+
+Routing table: __pfe_private__.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+0.0.0.0/32         perm     0                    dscd      542     2
+
+Routing table: __juniper_services__.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+0.0.0.0/32         perm     0                    dscd      551     2
