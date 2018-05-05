@@ -54,7 +54,7 @@ def main():
     last_flap_prev = read_file()
     print(last_flap, last_flap_prev)
 
-    if last_flap != last_flap_prev:
+    if last_flap == last_flap_prev:
         print("no changes")
     else:
         print("Changes detected")
@@ -81,7 +81,7 @@ def get_index():
     result = dev.rpc.get_route_information(destination=problemetic_ip, extensive=True)
     nh_index = result.findall(".//nh-index")
     return nh_index[0].text
-
+ 
 def exec_command(my_command):
     for command in my_command:
         result = dev.cli(command)
