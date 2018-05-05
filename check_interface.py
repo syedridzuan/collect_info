@@ -1,19 +1,11 @@
 from jnpr.junos import Device
-from lxml import etree
-from jnpr.junos import exception
-import pprint
-from jnpr.junos.utils.config import Config
-import ipaddress
-import time
 import re
 import datetime
 import os
 from lib.mylogger import MyLogger
 
-
 log = MyLogger("log", "lldp_audit.log")
 logger = log.getlogger()
-
 
 
 lsp = "r3-to-r6-af"
