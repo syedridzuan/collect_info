@@ -4,7 +4,7 @@ import datetime
 import os
 from lib.mylogger import MyLogger
 
-log = MyLogger("log", "lldp_audit.log")
+log = MyLogger("log", "collect.log")
 logger = log.getlogger()
 
 
