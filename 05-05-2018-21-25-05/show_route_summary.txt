@@ -1,0 +1,13 @@
+
+Autonomous system number: 65535
+Router ID: 1.1.1.1
+
+inet.0: 18 destinations, 18 routes (18 active, 0 holddown, 0 hidden)
+              Direct:      7 routes,      7 active
+               Local:      6 routes,      6 active
+                OSPF:      2 routes,      2 active
+                 BGP:      2 routes,      2 active
+              Static:      1 routes,      1 active
+
+mpls.0: 6 destinations, 6 routes (6 active, 0 holddown, 0 hidden)
+                MPLS:      6 routes,      6 active

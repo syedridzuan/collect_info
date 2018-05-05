@@ -1,0 +1,8 @@
+
+
+inet.0: 18 destinations, 18 routes (18 active, 0 holddown, 0 hidden)
+  Prefix		  Nexthop	       MED     Lclpref    AS path
+* 22.22.22.0/24           2.2.2.2                      100        I
+* 100.100.100.0/24        2.2.2.2                      100        I
+
+mpls.0: 6 destinations, 6 routes (6 active, 0 holddown, 0 hidden)

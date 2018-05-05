@@ -1,0 +1,29 @@
+
+Ingress LSP: 2 sessions
+
+1.1.1.1
+  From: 0.0.0.0, State: Dn, ActiveRoute: 0, LSPname: r3-to-r6-af
+  ActivePath: (none)
+  LSPtype: Static Configured, Penultimate hop popping
+  LoadBalance: Random
+  Encoding type: Packet, Switching type: Packet, GPID: IPv4
+  Primary                    State: Dn
+    Priorities: 7 0
+    SmartOptimizeTimer: 180
+    Will be enqueued for recomputation in 22 second(s).
+    1 May  5 07:00:11.837 CSPF failed: empty route 1.1.1.1
+  Created: Sat May  5 05:32:24 2018
+
+1.1.1.2
+  From: 0.0.0.0, State: Dn, ActiveRoute: 0, LSPname: r3-to-r6-be
+  ActivePath: (none)
+  LSPtype: Static Configured, Penultimate hop popping
+  LoadBalance: Random
+  Encoding type: Packet, Switching type: Packet, GPID: IPv4
+  Primary                    State: Dn
+    Priorities: 7 0
+    SmartOptimizeTimer: 180
+    Will be enqueued for recomputation in 4 second(s).
+    1 May  5 07:00:09.769 CSPF failed: no route toward 1.1.1.2
+  Created: Sat May  5 05:32:24 2018
+Total 2 displayed, Up 0, Down 2

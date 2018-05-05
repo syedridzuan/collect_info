@@ -1,0 +1,21 @@
+
+Routing table: default.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+default            user     0 52:54:0:a:cd:21    ucst      341     4 fxp0.0
+default            perm     0                    rjct       36     1
+
+Routing table: __master.anon__.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+default            perm     0                    rjct      520     1
+
+Routing table: __pfe_private__.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+default            perm     0                    dscd      542     2
+
+Routing table: __juniper_services__.inet
+Internet:
+Destination        Type RtRef Next hop           Type Index    NhRef Netif
+default            perm     0                    dscd      551     2

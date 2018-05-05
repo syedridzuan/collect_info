@@ -1,0 +1,2 @@
+
+/var/crash/*core*: No such file or directory

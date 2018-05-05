@@ -8,11 +8,18 @@ import time
 import re
 import datetime
 import os
+from lib.mylogger import MyLogger
+
+
+log = MyLogger("log", "lldp_audit.log")
+logger = log.getlogger()
+
+
 
 lsp = "r3-to-r6-af"
 bgp_ip = "2.2.2.2"
 problemetic_ip = "22.22.22.0"
-fpc = "fpc1"
+fpc = "fpc0"
 
 COMMANDS = ['show krt queue',
             'show krt state',
@@ -25,11 +32,6 @@ COMMANDS = ['show krt queue',
             "show rsvp session ingress name {} extensive | no-more".format(lsp),
             'show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more',
             ]
-
-
-# show route x.x.x.x extensive (x.x.x.x is problematic IP)
-# request pfe execute command "show nhdb id <index id> extensive" target fpc1 (Index id gets from the above command)
-# show route forwarding-table destination x.x.x.x | no-more
 
 cdt = datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
 print(cdt)
@@ -55,9 +57,10 @@ def main():
     print(last_flap, last_flap_prev)
 
     if last_flap == last_flap_prev:
-        print("no changes")
+        logger.info("No changes")
+
     else:
-        print("Changes detected")
+        logger.info("Changes detected")
         exec_command(COMMANDS)
         index_no = get_index()
         command2 = build_2ndcommand(index_no, fpc)
@@ -67,23 +70,42 @@ def main():
 
 
 def build_2ndcommand(index_id, fpc):
+
     command1 = ('request pfe execute '
-               'command "show nhdb id <index id> extensive"'
+               'command "show nhdb id {} extensive"'
                ' target {}'
                 .format(index_id, fpc))
 
     command2 = ('show route forwarding-table destination {} | no-more'.format(index_id))
-    return [command1, command2]
+
+    command3 = ('request pfe execute command '
+                '"show nhdb hw unilist-sel '
+                'extensive" target {}'
+                .format(fpc))
+
+    command4 = ('request pfe execute command '
+                '"write core" '
+                'target {}'
+                .format(fpc))
+
+    command5 = "show system core-dumps"
+
+    return [command1, command2, command3, command4, command5]
 
 
 def get_index():
     print("getting index no")
     result = dev.rpc.get_route_information(destination=problemetic_ip, extensive=True)
-    nh_index = result.findall(".//nh-index")
-    return nh_index[0].text
- 
+    rt_entry = result.find(".//rt-entry")
+    for item in rt_entry:
+        #print(item.tag)
+        if item.tag == "nh-type" and item.text=="Router":
+            return item.getnext().text
+
+
 def exec_command(my_command):
     for command in my_command:
+        logger.info(command)
         result = dev.cli(command)
         f_name = os.path.join(final_path, convert_file_name(command))
         with open(f_name, 'w') as the_file:
