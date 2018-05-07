@@ -1,0 +1,11 @@
+config:
+    host: '192.168.122.4'
+    username: 'lab'
+    password: 'abc123'
+    lsp: "r3-to-r6-af"
+    bgp_ip: "2.2.2.2"
+    problemetic_ip: "22.22.22.0"
+    fpc: "fpc0"
+    last_detect_diff_seconds: 3600
+    if_name: "ge-0/0/0"
+

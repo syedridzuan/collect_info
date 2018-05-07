@@ -1,36 +1,25 @@
 from jnpr.junos import Device
 import re
-import datetime
+from datetime import datetime
 import os
 from lib.mylogger import MyLogger
+import pickle
+from pprint import pprint as pp
+import yaml
 
 log = MyLogger("log", "collect.log")
 logger = log.getlogger()
 
+now = datetime.now()
+logger.info(now)
+folder_cdt = now.strftime("%d-%m-%Y-%H-%M-%S")
 
-lsp = "r3-to-r6-af"
-bgp_ip = "2.2.2.2"
-problemetic_ip = "22.22.22.0"
-fpc = "fpc0"
+logger.info(folder_cdt)
 
-COMMANDS = ['show krt queue',
-            'show krt state',
-            'show route summary',
-            'show route receive-protocol bgp {}'.format(bgp_ip),
-            'show route advertising-protocol bgp {}'.format(bgp_ip),
-            "show mpls lsp ingress extensive | no-more",
-            "show mpls lsp ingress name {} extensive | no-more".format(lsp),
-            "show rsvp session ingress",
-            "show rsvp session ingress name {} extensive | no-more".format(lsp),
-            'show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more',
-            ]
-
-cdt = datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
-print(cdt)
 dir_path = os.path.dirname(os.path.realpath(__file__))
-print(dir_path)
-final_path = os.path.join(dir_path, cdt)
-print(final_path)
+
+final_path = os.path.join(dir_path, folder_cdt)
+
 try:
     os.stat(final_path)
 except:
@@ -40,25 +29,82 @@ except:
 def main():
     global dev
     global interface
+    global config
 
-    dev = Device(host='192.168.122.4', user='lab', password='abc123')
+    config = get_config("config.yaml")['config']
+
+    build_command()
+
+    flap_info = read_file()
+    logger.info(flap_info)
+    dev = Device(host=config['host'], user=config['username'], password=config['password'])
     dev.open()
 
-    last_flap = check_interface()
-    last_flap_prev = read_file()
-    print(last_flap, last_flap_prev)
-
-    if last_flap == last_flap_prev:
-        logger.info("No changes")
+    if flap_info['last_detected']:
+        last_detect = datetime.strptime(flap_info['last_detected'], '%Y-%m-%d %H:%M:%S')
+        last_detect_diff = (now - last_detect).total_seconds()
 
     else:
-        logger.info("Changes detected")
-        exec_command(COMMANDS)
-        index_no = get_index()
-        command2 = build_2ndcommand(index_no, fpc)
-        exec_command(command2)
+        last_detect_diff = -1
 
-    write_to_file(last_flap)
+    logger.info("Last detected diff in seconds :{}".format(last_detect_diff))
+
+    admin_status, oper_status, last_flap = check_interface()
+
+    logger.info("admin status:{}, oper status:{}, last flap:{}"
+                .format(admin_status, oper_status, last_flap))
+
+    last_flap_prev = flap_info['last_flap']
+    print(last_flap, last_flap_prev)
+
+    if admin_status == "down" or oper_status == "down":
+        logger.info("interface down, waiting to be up again")
+    else:
+        if last_flap == last_flap_prev:
+            logger.info("No changes")
+
+        elif last_detect_diff > config['last_detect_diff_seconds'] :
+            logger.info("Changes detected")
+            flap_info['last_flap'] = last_flap
+            flap_info['last_detected'] = now.strftime('%Y-%m-%d %H:%M:%S')
+            exec_command(COMMANDS)
+            index_no = get_index()
+            command2 = build_2ndcommand(index_no, config['fpc'])
+            exec_command(command2)
+            write_to_file(flap_info)
+        else:
+            logger.info("Changes detected, but within ignore period")
+            flap_info['last_flap'] = last_flap
+            flap_info['last_detected'] = now.strftime('%Y-%m-%d %H:%M:%S')
+            write_to_file(flap_info)
+
+    logger.info(flap_info)
+
+
+def get_config(file):
+    with open(file, 'r') as stream:
+        try:
+            data = (yaml.load(stream))
+        except Exception as exc:
+            print(exc)
+            data = None
+    return data
+
+def build_command():
+
+    global COMMANDS
+
+    COMMANDS = ['show krt queue',
+                'show krt state',
+                'show route summary',
+                'show route receive-protocol bgp {}'.format(config['bgp_ip']),
+                'show route advertising-protocol bgp {}'.format(config['bgp_ip']),
+                "show mpls lsp ingress extensive | no-more",
+                "show mpls lsp ingress name {} extensive | no-more".format(config['lsp']),
+                "show rsvp session ingress",
+                "show rsvp session ingress name {} extensive | no-more".format(config['lsp']),
+                'show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more',
+                ]
 
 
 def build_2ndcommand(index_id, fpc):
@@ -75,19 +121,19 @@ def build_2ndcommand(index_id, fpc):
                 'extensive" target {}'
                 .format(fpc))
 
-    command4 = ('request pfe execute command '
-                '"write core" '
-                'target {}'
-                .format(fpc))
+    # command4 = ('request pfe execute command '
+    #             '"write core" '
+    #             'target {}'
+    #             .format(fpc))
 
     command5 = "show system core-dumps"
 
-    return [command1, command2, command3, command4, command5]
+    return [command1, command2, command3, command5]
 
 
 def get_index():
     print("getting index no")
-    result = dev.rpc.get_route_information(destination=problemetic_ip, extensive=True)
+    result = dev.rpc.get_route_information(destination=config['problemetic_ip'], extensive=True)
     rt_entry = result.find(".//rt-entry")
     for item in rt_entry:
         #print(item.tag)
@@ -114,20 +160,30 @@ def convert_file_name(f_name):
 
 
 def check_interface():
-    result = dev.rpc.get_interface_information(interface_name="ge-0/0/0", normalize=True)
-    last_flap = result.find(".//interface-flapped")
-    return re.search('\d+-\d+-\d+ \d+:\d+:\d+', last_flap.text).group(0).strip()
+    result = dev.rpc.get_interface_information(interface_name=config['if_name'], normalize=True)
+    last_flap = result.findtext(".//interface-flapped")
+    admin_status = result.findtext(".//admin-status")
+    oper_status = result.findtext(".//oper-status")
+    last_flap = re.search('\d+-\d+-\d+ \d+:\d+:\d+', last_flap).group(0).strip()
+    return admin_status, oper_status, last_flap
 
 
-def write_to_file(text_date):
-    with open('last_flap.txt', 'w') as the_file:
-        the_file.write(text_date)
+def write_to_file(flap_info):
+    pickle.dump(flap_info, open("flap_info.p", "wb"))
 
 
 def read_file():
-    file = open("last_flap.txt", "r")
-    x = file.read()
-    return x.strip()
+    flap_info = {'last_flap': None,
+                 'last_detected': None}
+
+    try:
+        pickle.load(open("flap_info.p", "rb"))
+    except IOError:
+        pickle.dump(flap_info, open("flap_info.p", "wb"))
+    else:
+        flap_info = pickle.load(open("flap_info.p", "rb"))
+
+    return flap_info
 
 
 if __name__ == "__main__":
