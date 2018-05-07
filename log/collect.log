@@ -1,0 +1,804 @@
+2018-05-06 00:18:25,897 2018-05-06 00:18:25.897385
+2018-05-06 00:18:25,897 06-05-2018-00-18-25
+2018-05-06 00:18:25,907 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:18:26,129 Authentication (password) successful!
+2018-05-06 00:18:26,251 initialized: session-id=7487 | server_capabilities=<dictionary-keyiterator object at 0x7f709a6a98e8>
+2018-05-06 00:18:26,254 Requesting 'ExecuteRpc'
+2018-05-06 00:18:26,423 No changes
+2018-05-06 00:18:56,054 2018-05-06 00:18:56.054087
+2018-05-06 00:18:56,054 06-05-2018-00-18-56
+2018-05-06 00:18:56,065 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:18:56,278 Authentication (password) successful!
+2018-05-06 00:18:56,407 initialized: session-id=7493 | server_capabilities=<dictionary-keyiterator object at 0x7f6aaa2b26d8>
+2018-05-06 00:21:28,312 2018-05-06 00:21:28.312381
+2018-05-06 00:21:28,312 06-05-2018-00-21-28
+2018-05-06 00:21:28,322 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:21:28,495 Authentication (password) successful!
+2018-05-06 00:21:28,616 initialized: session-id=7515 | server_capabilities=<dictionary-keyiterator object at 0x7f1e5034e8e8>
+2018-05-06 00:22:02,370 2018-05-06 00:22:02.370611
+2018-05-06 00:22:02,370 06-05-2018-00-22-02
+2018-05-06 00:22:02,381 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:22:02,595 Authentication (password) successful!
+2018-05-06 00:22:02,723 initialized: session-id=7523 | server_capabilities=<dictionary-keyiterator object at 0x7f8aa4a268e8>
+2018-05-06 00:22:02,724 Requesting 'ExecuteRpc'
+2018-05-06 00:22:02,841 Changes detected
+2018-05-06 00:23:41,510 2018-05-06 00:23:41.510597
+2018-05-06 00:23:41,510 06-05-2018-00-23-41
+2018-05-06 00:23:41,524 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:23:41,670 Authentication (password) successful!
+2018-05-06 00:23:41,798 initialized: session-id=7538 | server_capabilities=<dictionary-keyiterator object at 0x7fd08c8718e8>
+2018-05-06 00:23:41,800 Requesting 'ExecuteRpc'
+2018-05-06 00:23:41,968 No changes
+2018-05-06 00:24:01,720 2018-05-06 00:24:01.720147
+2018-05-06 00:24:01,720 06-05-2018-00-24-01
+2018-05-06 00:24:01,734 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:24:01,910 Authentication (password) successful!
+2018-05-06 00:24:02,046 initialized: session-id=7547 | server_capabilities=<dictionary-keyiterator object at 0x7f1ac42a56d8>
+2018-05-06 00:24:02,048 Requesting 'ExecuteRpc'
+2018-05-06 00:24:02,365 Changes detected
+2018-05-06 00:25:10,744 2018-05-06 00:25:10.744472
+2018-05-06 00:25:10,744 06-05-2018-00-25-10
+2018-05-06 00:25:10,762 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:25:10,950 Authentication (password) successful!
+2018-05-06 00:25:11,068 initialized: session-id=7556 | server_capabilities=<dictionary-keyiterator object at 0x7f7ac53608e8>
+2018-05-06 00:25:11,070 Requesting 'ExecuteRpc'
+2018-05-06 00:25:11,237 No changes
+2018-05-06 00:27:41,746 2018-05-06 00:27:41.746475
+2018-05-06 00:27:41,746 06-05-2018-00-27-41
+2018-05-06 00:27:41,761 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:27:41,971 Authentication (password) successful!
+2018-05-06 00:27:42,088 initialized: session-id=7581 | server_capabilities=<dictionary-keyiterator object at 0x7f35b51b48e8>
+2018-05-06 00:27:42,091 Requesting 'ExecuteRpc'
+2018-05-06 00:27:42,208 No changes
+2018-05-06 00:28:01,502 2018-05-06 00:28:01.502788
+2018-05-06 00:28:01,502 06-05-2018-00-28-01
+2018-05-06 00:28:01,513 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:28:01,665 Authentication (password) successful!
+2018-05-06 00:28:01,787 initialized: session-id=7590 | server_capabilities=<dictionary-keyiterator object at 0x7fdf556e78e8>
+2018-05-06 00:28:01,789 Requesting 'ExecuteRpc'
+2018-05-06 00:28:01,958 No changes
+2018-05-06 00:28:05,326 2018-05-06 00:28:05.326819
+2018-05-06 00:28:05,327 06-05-2018-00-28-05
+2018-05-06 00:28:05,339 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:28:05,490 Authentication (password) successful!
+2018-05-06 00:28:05,623 initialized: session-id=7596 | server_capabilities=<dictionary-keyiterator object at 0x7fb9c10b98e8>
+2018-05-06 00:28:05,625 Requesting 'ExecuteRpc'
+2018-05-06 00:28:05,793 No changes
+2018-05-06 00:28:08,822 2018-05-06 00:28:08.822848
+2018-05-06 00:28:08,823 06-05-2018-00-28-08
+2018-05-06 00:28:08,834 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:28:08,990 Authentication (password) successful!
+2018-05-06 00:28:09,122 initialized: session-id=7602 | server_capabilities=<dictionary-keyiterator object at 0x7f42067e88e8>
+2018-05-06 00:28:09,124 Requesting 'ExecuteRpc'
+2018-05-06 00:28:09,242 No changes
+2018-05-06 00:28:33,829 2018-05-06 00:28:33.829209
+2018-05-06 00:28:33,829 06-05-2018-00-28-33
+2018-05-06 00:28:33,842 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:28:34,010 Authentication (password) successful!
+2018-05-06 00:28:34,134 initialized: session-id=7611 | server_capabilities=<dictionary-keyiterator object at 0x7f3e60ee88e8>
+2018-05-06 00:28:34,137 Requesting 'ExecuteRpc'
+2018-05-06 00:29:01,935 2018-05-06 00:29:01.935303
+2018-05-06 00:29:01,935 06-05-2018-00-29-01
+2018-05-06 00:29:01,947 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:29:02,103 Authentication (password) successful!
+2018-05-06 00:29:02,227 initialized: session-id=7620 | server_capabilities=<dictionary-keyiterator object at 0x7fe4e29368e8>
+2018-05-06 00:29:02,230 Requesting 'ExecuteRpc'
+2018-05-06 00:29:15,076 2018-05-06 00:29:15.076467
+2018-05-06 00:29:15,076 06-05-2018-00-29-15
+2018-05-06 00:29:15,089 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:29:15,251 Authentication (password) successful!
+2018-05-06 00:29:15,370 initialized: session-id=7626 | server_capabilities=<dictionary-keyiterator object at 0x7eff9d78a8e8>
+2018-05-06 00:29:15,373 Requesting 'ExecuteRpc'
+2018-05-06 00:29:17,540 2018-05-06 00:29:17.540415
+2018-05-06 00:29:17,540 06-05-2018-00-29-17
+2018-05-06 00:29:17,550 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:29:17,711 Authentication (password) successful!
+2018-05-06 00:29:17,832 initialized: session-id=7632 | server_capabilities=<dictionary-keyiterator object at 0x7fc2f6b178e8>
+2018-05-06 00:29:17,834 Requesting 'ExecuteRpc'
+2018-05-06 00:31:19,896 2018-05-06 00:31:19.896961
+2018-05-06 00:31:19,897 06-05-2018-00-31-19
+2018-05-06 00:31:19,908 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:31:20,120 Authentication (password) successful!
+2018-05-06 00:31:20,244 initialized: session-id=7647 | server_capabilities=<dictionary-keyiterator object at 0x7f89080ea8e8>
+2018-05-06 00:31:20,247 Requesting 'ExecuteRpc'
+2018-05-06 00:31:20,365 Changes detected
+2018-05-06 00:31:40,928 2018-05-06 00:31:40.928714
+2018-05-06 00:31:40,928 06-05-2018-00-31-40
+2018-05-06 00:31:40,938 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:31:41,104 Authentication (password) successful!
+2018-05-06 00:31:41,225 initialized: session-id=7656 | server_capabilities=<dictionary-keyiterator object at 0x7f3143dde8e8>
+2018-05-06 00:31:41,228 Requesting 'ExecuteRpc'
+2018-05-06 00:32:25,972 2018-05-06 00:32:25.972596
+2018-05-06 00:32:25,972 06-05-2018-00-32-25
+2018-05-06 00:32:25,981 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:32:26,195 Authentication (password) successful!
+2018-05-06 00:32:26,322 initialized: session-id=7665 | server_capabilities=<dictionary-keyiterator object at 0x7f63342be8e8>
+2018-05-06 00:32:26,325 Requesting 'ExecuteRpc'
+2018-05-06 00:32:26,442 Changes detected
+2018-05-06 00:33:00,892 2018-05-06 00:33:00.892756
+2018-05-06 00:33:00,892 06-05-2018-00-33-00
+2018-05-06 00:33:00,904 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:33:01,048 Authentication (password) successful!
+2018-05-06 00:33:01,186 initialized: session-id=7674 | server_capabilities=<dictionary-keyiterator object at 0x7f2bd9e878e8>
+2018-05-06 00:33:01,190 Requesting 'ExecuteRpc'
+2018-05-06 00:33:01,306 Changes detected, but within ignore period
+2018-05-06 00:34:33,967 2018-05-06 00:34:33.967391
+2018-05-06 00:34:33,967 06-05-2018-00-34-33
+2018-05-06 00:34:33,977 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:34:34,132 Authentication (password) successful!
+2018-05-06 00:34:34,256 initialized: session-id=7690 | server_capabilities=<dictionary-keyiterator object at 0x7f4562bc98e8>
+2018-05-06 00:34:34,259 Requesting 'ExecuteRpc'
+2018-05-06 00:34:34,375 Changes detected, but within ignore period
+2018-05-06 00:36:23,661 2018-05-06 00:36:23.661543
+2018-05-06 00:36:23,662 06-05-2018-00-36-23
+2018-05-06 00:36:23,671 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:36:23,885 Authentication (password) successful!
+2018-05-06 00:36:24,009 initialized: session-id=7705 | server_capabilities=<dictionary-keyiterator object at 0x7fb2568f38e8>
+2018-05-06 00:36:24,011 Requesting 'ExecuteRpc'
+2018-05-06 00:36:24,128 Changes detected, but within ignore period
+2018-05-06 00:36:29,894 2018-05-06 00:36:29.894152
+2018-05-06 00:36:29,894 06-05-2018-00-36-29
+2018-05-06 00:36:29,905 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:36:30,066 Authentication (password) successful!
+2018-05-06 00:36:30,188 initialized: session-id=7711 | server_capabilities=<dictionary-keyiterator object at 0x7f42f69408e8>
+2018-05-06 00:36:30,190 Requesting 'ExecuteRpc'
+2018-05-06 00:36:30,306 Changes detected, but within ignore period
+2018-05-06 00:37:19,158 2018-05-06 00:37:19.158265
+2018-05-06 00:37:19,158 06-05-2018-00-37-19
+2018-05-06 00:37:19,170 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:37:19,325 Authentication (password) successful!
+2018-05-06 00:37:19,449 initialized: session-id=7723 | server_capabilities=<dictionary-keyiterator object at 0x7fd668a118e8>
+2018-05-06 00:37:19,451 Requesting 'ExecuteRpc'
+2018-05-06 00:37:19,568 No changes
+2018-05-06 00:38:41,642 2018-05-06 00:38:41.642542
+2018-05-06 00:38:41,642 06-05-2018-00-38-41
+2018-05-06 00:38:41,643 {'last_flap': '2018-05-05 05:33:03', 'last_detected': '2018-05-06 00:36:29'}
+2018-05-06 00:38:41,656 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:38:41,854 Authentication (password) successful!
+2018-05-06 00:38:41,978 initialized: session-id=7735 | server_capabilities=<dictionary-keyiterator object at 0x7f281af1c8e8>
+2018-05-06 00:38:41,980 Last detected diff in seconds :0:02:12.642542
+2018-05-06 00:38:41,981 Requesting 'ExecuteRpc'
+2018-05-06 00:38:42,148 No changes
+2018-05-06 00:39:13,350 2018-05-06 00:39:13.350785
+2018-05-06 00:39:13,351 06-05-2018-00-39-13
+2018-05-06 00:39:13,353 {'last_flap': '2018-05-05 05:33:03', 'last_detected': '2018-05-06 00:36:29'}
+2018-05-06 00:39:13,362 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:39:13,505 Authentication (password) successful!
+2018-05-06 00:39:13,641 initialized: session-id=7744 | server_capabilities=<dictionary-keyiterator object at 0x7fd6dea698e8>
+2018-05-06 00:39:13,643 Last detected diff in seconds :0:02:44.350785
+2018-05-06 00:39:13,644 Requesting 'ExecuteRpc'
+2018-05-06 00:39:13,760 No changes
+2018-05-06 00:39:13,760 2018-05-05 05:33:03
+2018-05-06 00:39:56,833 2018-05-06 00:39:56.833189
+2018-05-06 00:39:56,833 06-05-2018-00-39-56
+2018-05-06 00:39:56,833 {'last_flap': '2018-05-05 05:33:03', 'last_detected': '2018-05-06 00:36:29'}
+2018-05-06 00:39:56,846 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:39:56,998 Authentication (password) successful!
+2018-05-06 00:39:57,119 initialized: session-id=7757 | server_capabilities=<dictionary-keyiterator object at 0x7fba121e78e8>
+2018-05-06 00:39:57,122 Last detected diff in seconds :0:03:27.833189
+2018-05-06 00:39:57,123 Requesting 'ExecuteRpc'
+2018-05-06 00:39:57,239 No changes
+2018-05-06 00:39:57,239 {'last_flap': '2018-05-05 05:33:03', 'last_detected': '2018-05-06 00:36:29'}
+2018-05-06 00:40:20,331 2018-05-06 00:40:20.331405
+2018-05-06 00:40:20,331 06-05-2018-00-40-20
+2018-05-06 00:40:20,332 {'last_flap': '2018-05-05 05:33:03', 'last_detected': '2018-05-06 00:36:29'}
+2018-05-06 00:40:20,342 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:40:20,490 Authentication (password) successful!
+2018-05-06 00:40:20,620 initialized: session-id=7884 | server_capabilities=<dictionary-keyiterator object at 0x7fa470aa68e8>
+2018-05-06 00:40:20,622 Last detected diff in seconds :0:03:51.331405
+2018-05-06 00:40:20,623 Requesting 'ExecuteRpc'
+2018-05-06 00:40:20,740 Changes detected, but within ignore period
+2018-05-06 00:40:20,741 {'last_flap': '2018-05-05 11:25:47', 'last_detected': '2018-05-06 00:40:20'}
+2018-05-06 00:40:30,791 2018-05-06 00:40:30.791652
+2018-05-06 00:40:30,792 06-05-2018-00-40-30
+2018-05-06 00:40:30,793 {'last_flap': '2018-05-05 11:25:47', 'last_detected': '2018-05-06 00:40:20'}
+2018-05-06 00:40:30,802 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:40:31,013 Authentication (password) successful!
+2018-05-06 00:40:31,133 initialized: session-id=7890 | server_capabilities=<dictionary-keyiterator object at 0x7f29440958e8>
+2018-05-06 00:40:31,135 Last detected diff in seconds :0:00:10.791652
+2018-05-06 00:40:31,136 Requesting 'ExecuteRpc'
+2018-05-06 00:40:31,403 No changes
+2018-05-06 00:40:31,404 {'last_flap': '2018-05-05 11:25:47', 'last_detected': '2018-05-06 00:40:20'}
+2018-05-06 00:40:45,829 2018-05-06 00:40:45.829640
+2018-05-06 00:40:45,829 06-05-2018-00-40-45
+2018-05-06 00:40:45,830 {'last_flap': '2018-05-05 11:25:47', 'last_detected': '2018-05-06 00:40:20'}
+2018-05-06 00:40:45,840 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:40:46,006 Authentication (password) successful!
+2018-05-06 00:40:46,127 initialized: session-id=8014 | server_capabilities=<dictionary-keyiterator object at 0x7f1189e618e8>
+2018-05-06 00:40:46,129 Last detected diff in seconds :0:00:25.829640
+2018-05-06 00:40:46,129 Requesting 'ExecuteRpc'
+2018-05-06 00:40:46,246 Changes detected, but within ignore period
+2018-05-06 00:40:46,246 {'last_flap': '2018-05-05 11:26:08', 'last_detected': '2018-05-06 00:40:45'}
+2018-05-06 00:41:03,164 2018-05-06 00:41:03.164530
+2018-05-06 00:41:03,164 06-05-2018-00-41-03
+2018-05-06 00:41:03,165 {'last_flap': '2018-05-05 11:26:08', 'last_detected': '2018-05-06 00:40:45'}
+2018-05-06 00:41:03,174 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:41:03,326 Authentication (password) successful!
+2018-05-06 00:41:03,451 initialized: session-id=8023 | server_capabilities=<dictionary-keyiterator object at 0x7f08b081e8e8>
+2018-05-06 00:41:03,454 Last detected diff in seconds :0:00:18.164530
+2018-05-06 00:41:03,455 Requesting 'ExecuteRpc'
+2018-05-06 00:41:03,572 No changes
+2018-05-06 00:41:03,572 {'last_flap': '2018-05-05 11:26:08', 'last_detected': '2018-05-06 00:40:45'}
+2018-05-06 00:41:56,144 2018-05-06 00:41:56.144074
+2018-05-06 00:41:56,144 06-05-2018-00-41-56
+2018-05-06 00:41:56,145 {'last_flap': '2018-05-05 11:26:08', 'last_detected': '2018-05-06 00:40:45'}
+2018-05-06 00:41:56,159 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:41:56,369 Authentication (password) successful!
+2018-05-06 00:41:56,488 initialized: session-id=8032 | server_capabilities=<dictionary-keyiterator object at 0x7f2ea00648e8>
+2018-05-06 00:41:56,490 Last detected diff in seconds :0:01:11.144074
+2018-05-06 00:41:56,490 Requesting 'ExecuteRpc'
+2018-05-06 00:41:56,607 No changes
+2018-05-06 00:41:56,607 {'last_flap': '2018-05-05 11:26:08', 'last_detected': '2018-05-06 00:40:45'}
+2018-05-06 00:42:20,541 2018-05-06 00:42:20.541574
+2018-05-06 00:42:20,541 06-05-2018-00-42-20
+2018-05-06 00:42:20,542 {'last_flap': '2018-05-05 11:26:08', 'last_detected': '2018-05-06 00:40:45'}
+2018-05-06 00:42:20,553 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:42:20,711 Authentication (password) successful!
+2018-05-06 00:42:20,831 initialized: session-id=8159 | server_capabilities=<dictionary-keyiterator object at 0x7fb8a83b58e8>
+2018-05-06 00:42:20,833 Last detected diff in seconds :0:01:35.541574
+2018-05-06 00:42:20,834 Requesting 'ExecuteRpc'
+2018-05-06 00:42:20,950 Changes detected, but within ignore period
+2018-05-06 00:42:20,951 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:45:51,192 2018-05-06 00:45:51.192146
+2018-05-06 00:45:51,192 06-05-2018-00-45-51
+2018-05-06 00:45:51,193 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:45:51,204 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:45:51,389 Authentication (password) successful!
+2018-05-06 00:45:51,514 initialized: session-id=8191 | server_capabilities=<dictionary-keyiterator object at 0x7f109a7d8940>
+2018-05-06 00:45:51,517 Last detected diff in seconds :0:03:31.192146
+2018-05-06 00:45:51,518 Requesting 'ExecuteRpc'
+2018-05-06 00:45:51,635 No changes
+2018-05-06 00:45:51,635 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:47:16,629 2018-05-06 00:47:16.629669
+2018-05-06 00:47:16,629 06-05-2018-00-47-16
+2018-05-06 00:47:16,630 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:47:16,641 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:47:16,850 Authentication (password) successful!
+2018-05-06 00:47:16,978 initialized: session-id=8206 | server_capabilities=<dictionary-keyiterator object at 0x7f2444de4940>
+2018-05-06 00:47:16,980 Last detected diff in seconds :0:04:56.629669
+2018-05-06 00:47:16,981 Requesting 'ExecuteRpc'
+2018-05-06 00:47:17,151 No changes
+2018-05-06 00:47:17,151 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:49:06,523 2018-05-06 00:49:06.523645
+2018-05-06 00:49:06,523 06-05-2018-00-49-06
+2018-05-06 00:49:06,524 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:49:06,536 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:49:06,704 Authentication (password) successful!
+2018-05-06 00:49:07,364 initialized: session-id=8221 | server_capabilities=<dictionary-keyiterator object at 0x7f8962cb4998>
+2018-05-06 00:49:07,366 Last detected diff in seconds :0:06:46.523645
+2018-05-06 00:49:07,367 Requesting 'ExecuteRpc'
+2018-05-06 00:49:07,534 admin status:down, oper status:down, last flap:2018-05-05 11:27:24
+2018-05-06 00:49:19,875 2018-05-06 00:49:19.875292
+2018-05-06 00:49:19,875 06-05-2018-00-49-19
+2018-05-06 00:49:19,876 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:49:19,889 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:49:20,040 Authentication (password) successful!
+2018-05-06 00:49:20,165 initialized: session-id=8227 | server_capabilities=<dictionary-keyiterator object at 0x7ff0c9f5a998>
+2018-05-06 00:49:20,167 Last detected diff in seconds :0:06:59.875292
+2018-05-06 00:49:20,168 Requesting 'ExecuteRpc'
+2018-05-06 00:49:20,335 admin status:down, oper status:down, last flap:2018-05-05 11:27:24
+2018-05-06 00:49:28,545 2018-05-06 00:49:28.545635
+2018-05-06 00:49:28,545 06-05-2018-00-49-28
+2018-05-06 00:49:28,546 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:49:28,558 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:49:28,715 Authentication (password) successful!
+2018-05-06 00:49:28,836 initialized: session-id=8233 | server_capabilities=<dictionary-keyiterator object at 0x7f599dcdc998>
+2018-05-06 00:49:28,838 Last detected diff in seconds :0:07:08.545635
+2018-05-06 00:49:28,839 Requesting 'ExecuteRpc'
+2018-05-06 00:49:29,005 admin status:down, oper status:down, last flap:2018-05-05 11:27:24
+2018-05-06 00:49:29,005 interface down, waiting to be up again
+2018-05-06 00:49:29,006 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:51:36,967 2018-05-06 00:51:36.967429
+2018-05-06 00:51:36,967 06-05-2018-00-51-36
+2018-05-06 00:51:36,968 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:51:36,977 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:51:37,189 Authentication (password) successful!
+2018-05-06 00:51:37,307 initialized: session-id=8251 | server_capabilities=<dictionary-keyiterator object at 0x7f2a3b822998>
+2018-05-06 00:51:37,310 Last detected diff in seconds :0:09:16.967429
+2018-05-06 00:51:37,311 Requesting 'ExecuteRpc'
+2018-05-06 00:51:37,427 admin status:down, oper status:down, last flap:2018-05-05 11:27:24
+2018-05-06 00:51:37,427 interface down, waiting to be up again
+2018-05-06 00:51:37,427 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:51:52,069 2018-05-06 00:51:52.069493
+2018-05-06 00:51:52,070 06-05-2018-00-51-52
+2018-05-06 00:51:52,071 {'last_flap': '2018-05-05 11:27:24', 'last_detected': '2018-05-06 00:42:20'}
+2018-05-06 00:51:52,081 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:51:52,263 Authentication (password) successful!
+2018-05-06 00:51:52,398 initialized: session-id=8379 | server_capabilities=<dictionary-keyiterator object at 0x7fdde0982998>
+2018-05-06 00:51:52,401 Last detected diff in seconds :0:09:32.069493
+2018-05-06 00:51:52,401 Requesting 'ExecuteRpc'
+2018-05-06 00:51:52,569 admin status:up, oper status:up, last flap:2018-05-05 11:35:01
+2018-05-06 00:51:52,569 Changes detected, but within ignore period
+2018-05-06 00:51:52,570 {'last_flap': '2018-05-05 11:35:01', 'last_detected': '2018-05-06 00:51:52'}
+2018-05-06 00:52:21,020 2018-05-06 00:52:21.020221
+2018-05-06 00:52:21,020 06-05-2018-00-52-21
+2018-05-06 00:52:21,021 {'last_flap': '2018-05-05 11:35:01', 'last_detected': '2018-05-06 00:51:52'}
+2018-05-06 00:52:21,030 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:52:21,178 Authentication (password) successful!
+2018-05-06 00:52:21,313 initialized: session-id=8388 | server_capabilities=<dictionary-keyiterator object at 0x7fcc16caa998>
+2018-05-06 00:52:21,315 Last detected diff in seconds :0:00:29.020221
+2018-05-06 00:52:21,316 Requesting 'ExecuteRpc'
+2018-05-06 00:52:21,432 admin status:up, oper status:up, last flap:2018-05-05 11:35:01
+2018-05-06 00:52:21,433 No changes
+2018-05-06 00:52:21,433 {'last_flap': '2018-05-05 11:35:01', 'last_detected': '2018-05-06 00:51:52'}
+2018-05-06 00:52:36,470 2018-05-06 00:52:36.470296
+2018-05-06 00:52:36,470 06-05-2018-00-52-36
+2018-05-06 00:52:36,471 {'last_flap': '2018-05-05 11:35:01', 'last_detected': '2018-05-06 00:51:52'}
+2018-05-06 00:52:36,480 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:52:36,620 Authentication (password) successful!
+2018-05-06 00:52:36,758 initialized: session-id=8512 | server_capabilities=<dictionary-keyiterator object at 0x7fdb6825e998>
+2018-05-06 00:52:36,760 Last detected diff in seconds :0:00:44.470296
+2018-05-06 00:52:36,761 Requesting 'ExecuteRpc'
+2018-05-06 00:52:36,878 admin status:down, oper status:down, last flap:2018-05-05 11:35:36
+2018-05-06 00:52:36,878 interface down, waiting to be up again
+2018-05-06 00:52:36,879 {'last_flap': '2018-05-05 11:35:01', 'last_detected': '2018-05-06 00:51:52'}
+2018-05-06 00:52:58,129 2018-05-06 00:52:58.128977
+2018-05-06 00:52:58,129 06-05-2018-00-52-58
+2018-05-06 00:52:58,129 {'last_flap': '2018-05-05 11:35:01', 'last_detected': '2018-05-06 00:51:52'}
+2018-05-06 00:52:58,138 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:52:58,294 Authentication (password) successful!
+2018-05-06 00:52:58,418 initialized: session-id=8639 | server_capabilities=<dictionary-keyiterator object at 0x7fd3174f5998>
+2018-05-06 00:52:58,420 Last detected diff in seconds :0:01:06.128977
+2018-05-06 00:52:58,421 Requesting 'ExecuteRpc'
+2018-05-06 00:52:58,537 admin status:up, oper status:up, last flap:2018-05-05 11:35:53
+2018-05-06 00:52:58,537 Changes detected
+2018-05-06 00:52:58,538 show krt queue
+2018-05-06 00:52:58,538 Requesting 'ExecuteRpc'
+2018-05-06 00:52:58,654 Requesting 'ExecuteRpc'
+2018-05-06 00:52:58,820 show krt state
+2018-05-06 00:52:58,821 Requesting 'ExecuteRpc'
+2018-05-06 00:52:58,937 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,053 show route summary
+2018-05-06 00:52:59,054 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,170 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,335 show route receive-protocol bgp 2.2.2.2
+2018-05-06 00:52:59,336 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,401 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,567 show route advertising-protocol bgp 2.2.2.2
+2018-05-06 00:52:59,567 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,683 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,799 show mpls lsp ingress extensive | no-more
+2018-05-06 00:52:59,800 Requesting 'ExecuteRpc'
+2018-05-06 00:52:59,916 Requesting 'ExecuteRpc'
+2018-05-06 00:53:00,132 show mpls lsp ingress name r3-to-r6-af extensive | no-more
+2018-05-06 00:53:00,132 Requesting 'ExecuteRpc'
+2018-05-06 00:53:00,247 Requesting 'ExecuteRpc'
+2018-05-06 00:53:00,412 show rsvp session ingress
+2018-05-06 00:53:00,413 Requesting 'ExecuteRpc'
+2018-05-06 00:53:00,528 Requesting 'ExecuteRpc'
+2018-05-06 00:53:00,694 show rsvp session ingress name r3-to-r6-af extensive | no-more
+2018-05-06 00:53:00,695 Requesting 'ExecuteRpc'
+2018-05-06 00:53:00,810 Requesting 'ExecuteRpc'
+2018-05-06 00:53:01,026 show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more
+2018-05-06 00:53:01,027 Requesting 'ExecuteRpc'
+2018-05-06 00:53:01,093 Requesting 'ExecuteRpc'
+2018-05-06 00:53:02,312 Requesting 'ExecuteRpc'
+2018-05-06 00:53:02,478 request pfe execute command "show nhdb id 595 extensive" target fpc0
+2018-05-06 00:53:02,478 Requesting 'ExecuteRpc'
+2018-05-06 00:53:02,594 Requesting 'ExecuteRpc'
+2018-05-06 00:53:08,984 show route forwarding-table destination 595 | no-more
+2018-05-06 00:53:08,984 Requesting 'ExecuteRpc'
+2018-05-06 00:53:09,100 Requesting 'ExecuteRpc'
+2018-05-06 00:53:09,316 request pfe execute command "show nhdb hw unilist-sel extensive" target fpc0
+2018-05-06 00:53:09,316 Requesting 'ExecuteRpc'
+2018-05-06 00:53:09,433 Requesting 'ExecuteRpc'
+2018-05-06 00:53:15,870 request pfe execute command "write core" target fpc0
+2018-05-06 00:53:15,870 Requesting 'ExecuteRpc'
+2018-05-06 00:53:15,986 Requesting 'ExecuteRpc'
+2018-05-06 00:53:22,427 show system core-dumps
+2018-05-06 00:53:22,427 Requesting 'ExecuteRpc'
+2018-05-06 00:53:22,493 Requesting 'ExecuteRpc'
+2018-05-06 00:53:22,659 {'last_flap': '2018-05-05 11:35:53', 'last_detected': '2018-05-06 00:52:58'}
+2018-05-06 00:53:35,624 2018-05-06 00:53:35.624924
+2018-05-06 00:53:35,625 06-05-2018-00-53-35
+2018-05-06 00:53:35,625 {'last_flap': '2018-05-05 11:35:53', 'last_detected': '2018-05-06 00:52:58'}
+2018-05-06 00:53:35,638 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:53:35,785 Authentication (password) successful!
+2018-05-06 00:53:35,915 initialized: session-id=8795 | server_capabilities=<dictionary-keyiterator object at 0x7f8734e90998>
+2018-05-06 00:53:35,918 Last detected diff in seconds :0:00:37.624924
+2018-05-06 00:53:35,918 Requesting 'ExecuteRpc'
+2018-05-06 00:53:36,035 admin status:down, oper status:down, last flap:2018-05-05 11:36:24
+2018-05-06 00:53:36,035 interface down, waiting to be up again
+2018-05-06 00:53:36,036 {'last_flap': '2018-05-05 11:35:53', 'last_detected': '2018-05-06 00:52:58'}
+2018-05-06 00:53:45,371 2018-05-06 00:53:45.371493
+2018-05-06 00:53:45,371 06-05-2018-00-53-45
+2018-05-06 00:53:45,372 {'last_flap': '2018-05-05 11:35:53', 'last_detected': '2018-05-06 00:52:58'}
+2018-05-06 00:53:45,384 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:53:45,563 Authentication (password) successful!
+2018-05-06 00:53:45,689 initialized: session-id=8919 | server_capabilities=<dictionary-keyiterator object at 0x7f79d6ee5998>
+2018-05-06 00:53:45,691 Last detected diff in seconds :0:00:47.371493
+2018-05-06 00:53:45,692 Requesting 'ExecuteRpc'
+2018-05-06 00:53:45,859 admin status:up, oper status:up, last flap:2018-05-05 11:36:32
+2018-05-06 00:53:45,859 Changes detected, but within ignore period
+2018-05-06 00:53:45,860 {'last_flap': '2018-05-05 11:36:32', 'last_detected': '2018-05-06 00:53:45'}
+2018-05-06 00:53:54,204 2018-05-06 00:53:54.204511
+2018-05-06 00:53:54,204 06-05-2018-00-53-54
+2018-05-06 00:53:54,206 {'last_flap': '2018-05-05 11:36:32', 'last_detected': '2018-05-06 00:53:45'}
+2018-05-06 00:53:54,216 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:53:54,360 Authentication (password) successful!
+2018-05-06 00:53:54,496 initialized: session-id=8925 | server_capabilities=<dictionary-keyiterator object at 0x7fc243395998>
+2018-05-06 00:53:54,498 Last detected diff in seconds :0:00:09.204511
+2018-05-06 00:53:54,499 Requesting 'ExecuteRpc'
+2018-05-06 00:53:54,615 admin status:up, oper status:up, last flap:2018-05-05 11:36:32
+2018-05-06 00:53:54,616 No changes
+2018-05-06 00:53:54,616 {'last_flap': '2018-05-05 11:36:32', 'last_detected': '2018-05-06 00:53:45'}
+2018-05-06 00:54:18,514 2018-05-06 00:54:18.514696
+2018-05-06 00:54:18,515 06-05-2018-00-54-18
+2018-05-06 00:54:18,516 {'last_flap': '2018-05-05 11:36:32', 'last_detected': '2018-05-06 00:53:45'}
+2018-05-06 00:54:18,525 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:54:18,683 Authentication (password) successful!
+2018-05-06 00:54:18,801 initialized: session-id=9052 | server_capabilities=<dictionary-keyiterator object at 0x7f1b2ffbc998>
+2018-05-06 00:54:18,804 Last detected diff in seconds :0:00:33.514696
+2018-05-06 00:54:18,804 Requesting 'ExecuteRpc'
+2018-05-06 00:54:18,921 admin status:down, oper status:down, last flap:2018-05-05 11:36:58
+2018-05-06 00:54:18,921 interface down, waiting to be up again
+2018-05-06 00:54:18,921 {'last_flap': '2018-05-05 11:36:32', 'last_detected': '2018-05-06 00:53:45'}
+2018-05-06 00:54:30,158 2018-05-06 00:54:30.158507
+2018-05-06 00:54:30,158 06-05-2018-00-54-30
+2018-05-06 00:54:30,159 {'last_flap': '2018-05-05 11:36:32', 'last_detected': '2018-05-06 00:53:45'}
+2018-05-06 00:54:30,169 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:54:30,317 Authentication (password) successful!
+2018-05-06 00:54:30,453 initialized: session-id=9176 | server_capabilities=<dictionary-keyiterator object at 0x7f3ee239e998>
+2018-05-06 00:54:30,456 Last detected diff in seconds :0:00:45.158507
+2018-05-06 00:54:30,456 Requesting 'ExecuteRpc'
+2018-05-06 00:54:30,573 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:54:30,573 Changes detected, but within ignore period
+2018-05-06 00:54:30,573 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:54:30'}
+2018-05-06 00:55:14,800 2018-05-06 00:55:14.800244
+2018-05-06 00:55:14,800 06-05-2018-00-55-14
+2018-05-06 00:55:14,802 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:55:14,811 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:55:14,957 Authentication (password) successful!
+2018-05-06 00:55:15,094 initialized: session-id=9185 | server_capabilities=<dictionary-keyiterator object at 0x7fcaae8a3730>
+2018-05-06 00:55:15,094 Last detected diff in seconds :None
+2018-05-06 00:55:15,095 Requesting 'ExecuteRpc'
+2018-05-06 00:55:15,212 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:56:28,215 2018-05-06 00:56:28.215848
+2018-05-06 00:56:28,216 06-05-2018-00-56-28
+2018-05-06 00:56:28,216 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:56:28,225 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:56:28,363 Authentication (password) successful!
+2018-05-06 00:56:28,505 initialized: session-id=9197 | server_capabilities=<dictionary-keyiterator object at 0x7fda53e43730>
+2018-05-06 00:56:28,505 Last detected diff in seconds :None
+2018-05-06 00:56:28,506 Requesting 'ExecuteRpc'
+2018-05-06 00:56:28,622 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:56:28,623 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:56:31,118 2018-05-06 00:56:31.118500
+2018-05-06 00:56:31,118 06-05-2018-00-56-31
+2018-05-06 00:56:31,119 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:56:31,129 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:56:31,276 Authentication (password) successful!
+2018-05-06 00:56:31,408 initialized: session-id=9203 | server_capabilities=<dictionary-keyiterator object at 0x7fe66c03e998>
+2018-05-06 00:56:31,409 Last detected diff in seconds :None
+2018-05-06 00:56:31,409 Requesting 'ExecuteRpc'
+2018-05-06 00:56:31,526 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:56:31,526 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:56:33,107 2018-05-06 00:56:33.106975
+2018-05-06 00:56:33,107 06-05-2018-00-56-33
+2018-05-06 00:56:33,107 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:56:33,116 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:56:33,336 Authentication (password) successful!
+2018-05-06 00:56:33,459 initialized: session-id=9212 | server_capabilities=<dictionary-keyiterator object at 0x7f820ef5b998>
+2018-05-06 00:56:33,459 Last detected diff in seconds :None
+2018-05-06 00:56:33,461 Requesting 'ExecuteRpc'
+2018-05-06 00:56:33,577 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:56:33,577 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:58:55,387 2018-05-06 00:58:55.387045
+2018-05-06 00:58:55,387 06-05-2018-00-58-55
+2018-05-06 00:58:55,388 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:58:55,397 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:58:55,547 Authentication (password) successful!
+2018-05-06 00:58:55,682 initialized: session-id=9231 | server_capabilities=<dictionary-keyiterator object at 0x7f64a0a57998>
+2018-05-06 00:58:55,683 Last detected diff in seconds :None
+2018-05-06 00:58:55,683 Requesting 'ExecuteRpc'
+2018-05-06 00:58:55,850 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:59:38,153 2018-05-06 00:59:38.153503
+2018-05-06 00:59:38,153 06-05-2018-00-59-38
+2018-05-06 00:59:38,154 {'last_flap': None, 'last_detected': None}
+2018-05-06 00:59:38,164 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:59:38,327 Authentication (password) successful!
+2018-05-06 00:59:38,448 initialized: session-id=9240 | server_capabilities=<dictionary-keyiterator object at 0x7f18b9603730>
+2018-05-06 00:59:38,449 Last detected diff in seconds :-1
+2018-05-06 00:59:38,449 Requesting 'ExecuteRpc'
+2018-05-06 00:59:38,565 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:59:38,565 Changes detected, but within ignore period
+2018-05-06 00:59:38,565 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 00:59:50,729 2018-05-06 00:59:50.729290
+2018-05-06 00:59:50,729 06-05-2018-00-59-50
+2018-05-06 00:59:50,731 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 00:59:50,744 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 00:59:50,919 Authentication (password) successful!
+2018-05-06 00:59:51,038 initialized: session-id=9249 | server_capabilities=<dictionary-keyiterator object at 0x7f8577270998>
+2018-05-06 00:59:51,040 Last detected diff in seconds :12.72929
+2018-05-06 00:59:51,040 Requesting 'ExecuteRpc'
+2018-05-06 00:59:51,157 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 00:59:51,157 No changes
+2018-05-06 00:59:51,158 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:15,486 2018-05-06 01:00:15.486615
+2018-05-06 01:00:15,486 06-05-2018-01-00-15
+2018-05-06 01:00:15,487 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:15,499 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 01:00:15,647 Authentication (password) successful!
+2018-05-06 01:00:15,776 initialized: session-id=9255 | server_capabilities=<dictionary-keyiterator object at 0x7faa69862998>
+2018-05-06 01:00:15,778 Last detected diff in seconds :37.486615
+2018-05-06 01:00:15,779 Requesting 'ExecuteRpc'
+2018-05-06 01:00:15,895 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 01:00:15,895 No changes
+2018-05-06 01:00:15,895 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:19,932 2018-05-06 01:00:19.932960
+2018-05-06 01:00:19,933 06-05-2018-01-00-19
+2018-05-06 01:00:19,934 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:19,943 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 01:00:20,077 Authentication (password) successful!
+2018-05-06 01:00:20,226 initialized: session-id=9264 | server_capabilities=<dictionary-keyiterator object at 0x7f65b0429998>
+2018-05-06 01:00:20,228 Last detected diff in seconds :41.93296
+2018-05-06 01:00:20,229 Requesting 'ExecuteRpc'
+2018-05-06 01:00:20,345 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 01:00:20,346 No changes
+2018-05-06 01:00:20,346 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:25,361 2018-05-06 01:00:25.361609
+2018-05-06 01:00:25,361 06-05-2018-01-00-25
+2018-05-06 01:00:25,362 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:25,371 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 01:00:25,521 Authentication (password) successful!
+2018-05-06 01:00:25,652 initialized: session-id=9270 | server_capabilities=<dictionary-keyiterator object at 0x7ff3f220d998>
+2018-05-06 01:00:25,654 Last detected diff in seconds :47.361609
+2018-05-06 01:00:25,654 Requesting 'ExecuteRpc'
+2018-05-06 01:00:25,771 admin status:up, oper status:up, last flap:2018-05-05 11:37:07
+2018-05-06 01:00:25,772 No changes
+2018-05-06 01:00:25,772 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:43,680 2018-05-06 01:00:43.680720
+2018-05-06 01:00:43,681 06-05-2018-01-00-43
+2018-05-06 01:00:43,683 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:00:43,695 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 01:00:43,909 Authentication (password) successful!
+2018-05-06 01:00:44,034 initialized: session-id=9394 | server_capabilities=<dictionary-keyiterator object at 0x7f9325cbd998>
+2018-05-06 01:00:44,036 Last detected diff in seconds :65.68072
+2018-05-06 01:00:44,037 Requesting 'ExecuteRpc'
+2018-05-06 01:00:44,153 admin status:down, oper status:down, last flap:2018-05-05 11:42:01
+2018-05-06 01:00:44,154 interface down, waiting to be up again
+2018-05-06 01:00:44,154 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:01:01,059 2018-05-06 01:01:01.059002
+2018-05-06 01:01:01,059 06-05-2018-01-01-01
+2018-05-06 01:01:01,059 {'last_flap': '2018-05-05 11:37:07', 'last_detected': '2018-05-06 00:59:38'}
+2018-05-06 01:01:01,071 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-06 01:01:01,282 Authentication (password) successful!
+2018-05-06 01:01:01,403 initialized: session-id=9521 | server_capabilities=<dictionary-keyiterator object at 0x7f339e865998>
+2018-05-06 01:01:01,405 Last detected diff in seconds :83.059002
+2018-05-06 01:01:01,406 Requesting 'ExecuteRpc'
+2018-05-06 01:01:01,522 admin status:up, oper status:up, last flap:2018-05-05 11:42:19
+2018-05-06 01:01:01,522 Changes detected
+2018-05-06 01:01:01,522 show krt queue
+2018-05-06 01:01:01,522 Requesting 'ExecuteRpc'
+2018-05-06 01:01:01,640 Requesting 'ExecuteRpc'
+2018-05-06 01:01:01,806 show krt state
+2018-05-06 01:01:01,806 Requesting 'ExecuteRpc'
+2018-05-06 01:01:01,922 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,087 show route summary
+2018-05-06 01:01:02,087 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,203 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,368 show route receive-protocol bgp 2.2.2.2
+2018-05-06 01:01:02,368 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,434 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,600 show route advertising-protocol bgp 2.2.2.2
+2018-05-06 01:01:02,600 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,716 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,883 show mpls lsp ingress extensive | no-more
+2018-05-06 01:01:02,883 Requesting 'ExecuteRpc'
+2018-05-06 01:01:02,949 Requesting 'ExecuteRpc'
+2018-05-06 01:01:03,166 show mpls lsp ingress name r3-to-r6-af extensive | no-more
+2018-05-06 01:01:03,166 Requesting 'ExecuteRpc'
+2018-05-06 01:01:03,283 Requesting 'ExecuteRpc'
+2018-05-06 01:01:03,549 show rsvp session ingress
+2018-05-06 01:01:03,550 Requesting 'ExecuteRpc'
+2018-05-06 01:01:03,615 Requesting 'ExecuteRpc'
+2018-05-06 01:01:03,781 show rsvp session ingress name r3-to-r6-af extensive | no-more
+2018-05-06 01:01:03,781 Requesting 'ExecuteRpc'
+2018-05-06 01:01:03,897 Requesting 'ExecuteRpc'
+2018-05-06 01:01:04,115 show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more
+2018-05-06 01:01:04,115 Requesting 'ExecuteRpc'
+2018-05-06 01:01:04,231 Requesting 'ExecuteRpc'
+2018-05-06 01:01:04,851 Requesting 'ExecuteRpc'
+2018-05-06 01:01:04,967 request pfe execute command "show nhdb id 595 extensive" target fpc0
+2018-05-06 01:01:04,967 Requesting 'ExecuteRpc'
+2018-05-06 01:01:05,084 Requesting 'ExecuteRpc'
+2018-05-06 01:01:12,010 show route forwarding-table destination 595 | no-more
+2018-05-06 01:01:12,010 Requesting 'ExecuteRpc'
+2018-05-06 01:01:12,126 Requesting 'ExecuteRpc'
+2018-05-06 01:01:12,341 request pfe execute command "show nhdb hw unilist-sel extensive" target fpc0
+2018-05-06 01:01:12,342 Requesting 'ExecuteRpc'
+2018-05-06 01:01:12,457 Requesting 'ExecuteRpc'
+2018-05-06 01:01:18,793 request pfe execute command "write core" target fpc0
+2018-05-06 01:01:18,793 Requesting 'ExecuteRpc'
+2018-05-06 01:01:18,860 Requesting 'ExecuteRpc'
+2018-05-06 01:01:25,349 show system core-dumps
+2018-05-06 01:01:25,350 Requesting 'ExecuteRpc'
+2018-05-06 01:01:25,415 Requesting 'ExecuteRpc'
+2018-05-06 01:01:25,630 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:10:39,927 2018-05-07 13:10:39.927235
+2018-05-07 13:10:39,927 07-05-2018-13-10-39
+2018-05-07 13:12:46,641 2018-05-07 13:12:46.641848
+2018-05-07 13:12:46,642 07-05-2018-13-12-46
+2018-05-07 13:17:02,234 2018-05-07 13:17:02.234165
+2018-05-07 13:17:02,234 07-05-2018-13-17-02
+2018-05-07 13:17:02,242 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:17:16,588 2018-05-07 13:17:16.587985
+2018-05-07 13:17:16,588 07-05-2018-13-17-16
+2018-05-07 13:17:16,589 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:17:28,546 2018-05-07 13:17:28.546010
+2018-05-07 13:17:28,546 07-05-2018-13-17-28
+2018-05-07 13:17:28,548 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:18:02,495 2018-05-07 13:18:02.495372
+2018-05-07 13:18:02,495 07-05-2018-13-18-02
+2018-05-07 13:18:02,500 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:18:50,077 2018-05-07 13:18:50.077945
+2018-05-07 13:18:50,078 07-05-2018-13-18-50
+2018-05-07 13:18:50,080 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:18:50,188 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:18:50,453 Authentication (password) successful!
+2018-05-07 13:18:50,685 initialized: session-id=3239 | server_capabilities=<dictionary-keyiterator object at 0x7fe3c646c998>
+2018-05-07 13:18:50,694 Last detected diff in seconds :130669.077945
+2018-05-07 13:18:50,694 Requesting 'ExecuteRpc'
+2018-05-07 13:18:50,966 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:18:50,966 Changes detected
+2018-05-07 13:19:35,031 2018-05-07 13:19:35.031739
+2018-05-07 13:19:35,031 07-05-2018-13-19-35
+2018-05-07 13:19:35,034 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:19:35,048 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:19:35,207 Authentication (password) successful!
+2018-05-07 13:19:35,329 initialized: session-id=3248 | server_capabilities=<dictionary-keyiterator object at 0x7fc3d430c998>
+2018-05-07 13:19:35,331 Last detected diff in seconds :130714.031739
+2018-05-07 13:19:35,331 Requesting 'ExecuteRpc'
+2018-05-07 13:19:35,448 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:19:35,448 Changes detected
+2018-05-07 13:19:35,448 show krt queue
+2018-05-07 13:19:35,449 Requesting 'ExecuteRpc'
+2018-05-07 13:19:35,581 Requesting 'ExecuteRpc'
+2018-05-07 13:19:35,747 show krt state
+2018-05-07 13:19:35,747 Requesting 'ExecuteRpc'
+2018-05-07 13:19:35,864 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,030 show route summary
+2018-05-07 13:19:36,030 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,146 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,362 show route receive-protocol bgp 2.2.2.2
+2018-05-07 13:19:36,363 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,428 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,594 show route advertising-protocol bgp 2.2.2.2
+2018-05-07 13:19:36,594 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,710 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,876 show mpls lsp ingress extensive | no-more
+2018-05-07 13:19:36,876 Requesting 'ExecuteRpc'
+2018-05-07 13:19:36,942 Requesting 'ExecuteRpc'
+2018-05-07 13:19:37,159 show mpls lsp ingress name r3-to-r6-af extensive | no-more
+2018-05-07 13:19:37,159 Requesting 'ExecuteRpc'
+2018-05-07 13:19:37,275 Requesting 'ExecuteRpc'
+2018-05-07 13:19:37,491 show rsvp session ingress
+2018-05-07 13:19:37,491 Requesting 'ExecuteRpc'
+2018-05-07 13:19:37,557 Requesting 'ExecuteRpc'
+2018-05-07 13:19:37,773 show rsvp session ingress name r3-to-r6-af extensive | no-more
+2018-05-07 13:19:37,773 Requesting 'ExecuteRpc'
+2018-05-07 13:19:37,839 Requesting 'ExecuteRpc'
+2018-05-07 13:19:38,055 show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more
+2018-05-07 13:19:38,055 Requesting 'ExecuteRpc'
+2018-05-07 13:19:38,171 Requesting 'ExecuteRpc'
+2018-05-07 13:19:38,738 Requesting 'ExecuteRpc'
+2018-05-07 13:22:00,194 2018-05-07 13:22:00.194100
+2018-05-07 13:22:00,194 07-05-2018-13-22-00
+2018-05-07 13:22:00,195 {'last_flap': '2018-05-05 11:42:19', 'last_detected': '2018-05-06 01:01:01'}
+2018-05-07 13:22:00,206 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:22:00,384 Authentication (password) successful!
+2018-05-07 13:22:00,515 initialized: session-id=3282 | server_capabilities=<dictionary-keyiterator object at 0x7f4c056d4998>
+2018-05-07 13:22:00,517 Last detected diff in seconds :130859.1941
+2018-05-07 13:22:00,517 Requesting 'ExecuteRpc'
+2018-05-07 13:22:00,685 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:22:00,685 Changes detected
+2018-05-07 13:22:00,685 show krt queue
+2018-05-07 13:22:00,685 Requesting 'ExecuteRpc'
+2018-05-07 13:22:00,752 Requesting 'ExecuteRpc'
+2018-05-07 13:22:00,969 show krt state
+2018-05-07 13:22:00,970 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,035 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,201 show route summary
+2018-05-07 13:22:01,202 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,318 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,484 show route receive-protocol bgp 2.2.2.2
+2018-05-07 13:22:01,484 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,601 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,766 show route advertising-protocol bgp 2.2.2.2
+2018-05-07 13:22:01,766 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,832 Requesting 'ExecuteRpc'
+2018-05-07 13:22:01,997 show mpls lsp ingress extensive | no-more
+2018-05-07 13:22:01,998 Requesting 'ExecuteRpc'
+2018-05-07 13:22:02,113 Requesting 'ExecuteRpc'
+2018-05-07 13:22:02,379 show mpls lsp ingress name r3-to-r6-af extensive | no-more
+2018-05-07 13:22:02,379 Requesting 'ExecuteRpc'
+2018-05-07 13:22:02,495 Requesting 'ExecuteRpc'
+2018-05-07 13:22:02,711 show rsvp session ingress
+2018-05-07 13:22:02,711 Requesting 'ExecuteRpc'
+2018-05-07 13:22:02,827 Requesting 'ExecuteRpc'
+2018-05-07 13:22:02,993 show rsvp session ingress name r3-to-r6-af extensive | no-more
+2018-05-07 13:22:02,993 Requesting 'ExecuteRpc'
+2018-05-07 13:22:03,109 Requesting 'ExecuteRpc'
+2018-05-07 13:22:03,324 show interfaces extensive | match "Physical|Input bytes|Output bytes" | no-more
+2018-05-07 13:22:03,324 Requesting 'ExecuteRpc'
+2018-05-07 13:22:03,439 Requesting 'ExecuteRpc'
+2018-05-07 13:22:04,457 Requesting 'ExecuteRpc'
+2018-05-07 13:22:04,573 request pfe execute command "show nhdb id 597 extensive" target fpc0
+2018-05-07 13:22:04,573 Requesting 'ExecuteRpc'
+2018-05-07 13:22:04,688 Requesting 'ExecuteRpc'
+2018-05-07 13:22:11,075 show route forwarding-table destination 597 | no-more
+2018-05-07 13:22:11,075 Requesting 'ExecuteRpc'
+2018-05-07 13:22:11,191 Requesting 'ExecuteRpc'
+2018-05-07 13:22:11,507 request pfe execute command "show nhdb hw unilist-sel extensive" target fpc0
+2018-05-07 13:22:11,507 Requesting 'ExecuteRpc'
+2018-05-07 13:22:11,572 Requesting 'ExecuteRpc'
+2018-05-07 13:22:17,810 show system core-dumps
+2018-05-07 13:22:17,810 Requesting 'ExecuteRpc'
+2018-05-07 13:22:17,876 Requesting 'ExecuteRpc'
+2018-05-07 13:22:18,041 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:46,943 2018-05-07 13:22:46.943800
+2018-05-07 13:22:46,944 07-05-2018-13-22-46
+2018-05-07 13:22:46,945 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:46,955 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:22:47,106 Authentication (password) successful!
+2018-05-07 13:22:47,237 initialized: session-id=3322 | server_capabilities=<dictionary-keyiterator object at 0x7fe3e9ab9998>
+2018-05-07 13:22:47,239 Last detected diff in seconds :46.9438
+2018-05-07 13:22:47,239 Requesting 'ExecuteRpc'
+2018-05-07 13:22:47,357 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:22:47,357 No changes
+2018-05-07 13:22:47,357 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:49,715 2018-05-07 13:22:49.715498
+2018-05-07 13:22:49,715 07-05-2018-13-22-49
+2018-05-07 13:22:49,717 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:49,728 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:22:49,887 Authentication (password) successful!
+2018-05-07 13:22:50,007 initialized: session-id=3328 | server_capabilities=<dictionary-keyiterator object at 0x7fa57e9c5998>
+2018-05-07 13:22:50,009 Last detected diff in seconds :49.715498
+2018-05-07 13:22:50,009 Requesting 'ExecuteRpc'
+2018-05-07 13:22:50,175 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:22:50,175 No changes
+2018-05-07 13:22:50,175 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:51,459 2018-05-07 13:22:51.459744
+2018-05-07 13:22:51,459 07-05-2018-13-22-51
+2018-05-07 13:22:51,461 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:51,473 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:22:51,623 Authentication (password) successful!
+2018-05-07 13:22:51,747 initialized: session-id=3334 | server_capabilities=<dictionary-keyiterator object at 0x7f00d8287998>
+2018-05-07 13:22:51,748 Last detected diff in seconds :51.459744
+2018-05-07 13:22:51,749 Requesting 'ExecuteRpc'
+2018-05-07 13:22:51,865 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:22:51,865 No changes
+2018-05-07 13:22:51,865 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:52,942 2018-05-07 13:22:52.942510
+2018-05-07 13:22:52,942 07-05-2018-13-22-52
+2018-05-07 13:22:52,944 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:52,955 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:22:53,128 Authentication (password) successful!
+2018-05-07 13:22:53,270 initialized: session-id=3340 | server_capabilities=<dictionary-keyiterator object at 0x7fc5bf225998>
+2018-05-07 13:22:53,273 Last detected diff in seconds :52.94251
+2018-05-07 13:22:53,273 Requesting 'ExecuteRpc'
+2018-05-07 13:22:53,390 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:22:53,390 No changes
+2018-05-07 13:22:53,390 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:54,995 2018-05-07 13:22:54.995755
+2018-05-07 13:22:54,995 07-05-2018-13-22-54
+2018-05-07 13:22:54,997 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:22:55,006 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:22:55,153 Authentication (password) successful!
+2018-05-07 13:22:55,283 initialized: session-id=3346 | server_capabilities=<dictionary-keyiterator object at 0x7fbc9aaba940>
+2018-05-07 13:22:55,284 Last detected diff in seconds :54.995755
+2018-05-07 13:22:55,285 Requesting 'ExecuteRpc'
+2018-05-07 13:22:55,401 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:22:55,401 No changes
+2018-05-07 13:22:55,402 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:27:08,275 2018-05-07 13:27:08.275717
+2018-05-07 13:27:08,275 07-05-2018-13-27-08
+2018-05-07 13:27:08,277 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}
+2018-05-07 13:27:08,286 Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-07 13:27:08,503 Authentication (password) successful!
+2018-05-07 13:27:08,629 initialized: session-id=3373 | server_capabilities=<dictionary-keyiterator object at 0x7f6a2401e998>
+2018-05-07 13:27:08,631 Last detected diff in seconds :308.275717
+2018-05-07 13:27:08,631 Requesting 'ExecuteRpc'
+2018-05-07 13:27:08,748 admin status:up, oper status:up, last flap:2018-05-07 05:10:39
+2018-05-07 13:27:08,748 No changes
+2018-05-07 13:27:08,748 {'last_flap': '2018-05-07 05:10:39', 'last_detected': '2018-05-07 13:22:00'}

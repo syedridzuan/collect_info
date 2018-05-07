@@ -1,6 +1,0 @@
-
-SENT: Ukern command: show nhdb hw unilist-sel extensive
-GOT:
-GOT:
-GOT: Adaptive Monitors
-LOCAL: End of file
